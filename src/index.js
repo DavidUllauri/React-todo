@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { createStore } from "redux";
 import { AddTodo } from "./components";
+import { InputForm } from "./components";
 import counter from "./reducers";
 import { INCREMENT, DECREMENT } from "./actions";
 
@@ -9,11 +10,11 @@ const store = createStore(counter);
 
 const render = () => {
   ReactDOM.render(
-  	 
-   <AddTodo/>
-
-    ,
-     document.getElementById("root")
+    <div>
+      <AddTodo />
+      <InputForm/>
+    </div>,
+    document.getElementById("root")
   );
 };
 
