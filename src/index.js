@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { createStore } from "redux";
- import { Counter } from "./components";
+import { AddTodo } from "./components";
 import counter from "./reducers";
 import { INCREMENT, DECREMENT } from "./actions";
 
@@ -10,11 +10,9 @@ const store = createStore(counter);
 const render = () => {
   ReactDOM.render(
   	 
-      <Counter
-      value={store.getState()}
-      onIncrement={() => store.dispatch({ type: INCREMENT })}   
-      onDecrement={() => store.dispatch({ type: DECREMENT })}
-    />,
+   <AddTodo/>
+
+    ,
      document.getElementById("root")
   );
 };

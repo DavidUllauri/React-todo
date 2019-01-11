@@ -1,1 +1,1 @@
-export { default as Counter } from "./AddTodo";
+export { default as AddTodo} from "./AddTodo";
