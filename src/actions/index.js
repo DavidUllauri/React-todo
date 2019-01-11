@@ -1,4 +1,4 @@
-// Namespace Actions aka Action Types
+// // Namespace Actions aka Action Types
 
-export const INCREMENT = "INCREMENT";
-export const DECREMENT = "DECREMENT";
+// export const INCREMENT = "INCREMENT";
+// export const DECREMENT = "DECREMENT";
