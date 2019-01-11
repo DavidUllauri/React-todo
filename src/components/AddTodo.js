@@ -1,11 +1,9 @@
 import React from "react";
 
-const Counter = ({ value, onIncrement, onDecrement }) => (
+const AddTodo = ({ value, onIncrement, onDecrement }) => (
   <div>
-    <h1>Value: {value}</h1>
-    <button onClick={onIncrement}>+</button>
-    <button onClick={onDecrement}>-</button>
+      <h1> Hello </h1>
   </div>
 );
 
-export default Counter;
+export default AddTodo;
